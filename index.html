@@ -4,27 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flink Verification</title>
-    <!-- Include Bootstrap CSS (Add the correct path to your Bootstrap CSS file) -->
-    <link rel="stylesheet" href="path/to/bootstrap.min.css">
-
     <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
         .card {
             border: 1px solid #ddd;
             padding: 20px;
             margin: 20px;
             border-radius: 5px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         label {
             display: block;
             margin-bottom: 10px;
         }
-        input, textarea {
-            width: 100%;
+
+        input,
+        textarea {
+            width: calc(100% - 20px);
             padding: 10px;
             margin-bottom: 15px;
             border: 1px solid #ddd;
             border-radius: 5px;
+            box-sizing: border-box;
         }
+
         button {
             padding: 10px;
             background-color: #4CAF50;
@@ -47,22 +58,20 @@
 <!-- Card for entering username and message -->
 <div class="card">
     <form method="post" action="verification_submission.php">
-        <div class="mb-3">
-            <label for="username" class="form-label">Username:</label>
-            <input type="text" id="username" name="username" class="form-control" required>
-        </div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
 
-        <div class="mb-3">
-            <label for="message" class="form-label">Message (Why do you need verification?):</label>
-            <textarea id="message" name="message" rows="4" class="form-control" required></textarea>
-        </div>
+        <label for="message">Message (Why do you need verification?):</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
 
-        <button type="submit" class="btn btn-success">Send</button>
+        <button type="submit">Send</button>
     </form>
 </div>
 
-<!-- Include Bootstrap JS (Add the correct path to your Bootstrap JS file) -->
-<script src="path/to/bootstrap.bundle.min.js"></script>
+<!-- Include the Poppins font inline -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+</style>
 
 </body>
 </html>
