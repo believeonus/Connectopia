@@ -2,159 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Social Media Explore Page</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flink Verification</title>
+    <!-- Include Bootstrap CSS (Add the correct path to your Bootstrap CSS file) -->
+    <link rel="stylesheet" href="path/to/bootstrap.min.css">
+
     <style>
-        body {
-            background-color: #f8f9fa;
-        }
-
         .card {
-            margin: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
         }
-
-        .card img {
-            max-height: 200px;
-            object-fit: cover;
+        label {
+            display: block;
+            margin-bottom: 10px;
         }
-
-        .section-title {
-            margin-top: 20px;
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
         }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <h2 class="mt-4 mb-4">Explore Page</h2>
-
-    <!-- Most Liked Section -->
-    <h4 class="section-title">Most Liked</h4>
-    <div class="card-deck">
-        <!-- Replace with college-themed images -->
-        <div class="card">
-            <img src="college-image1.jpg" class="card-img-top" alt="College Image 1">
-            <div class="card-body">
-                <h5 class="card-title">Username</h5>
-                <p class="card-text">Caption for the image. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Likes: 1000 | Followers: 500K | Comments: 50</small>
-            </div>
-        </div>
-        <!-- Repeat for other most liked college-themed images -->
-    </div>
-
-    <!-- Most Followed Person Section -->
-    <h4 class="section-title">Most Followed Person</h4>
-    <div class="card-deck">
-        <!-- Replace with college-themed image -->
-        <div class="card">
-            <img src="college-image2.jpg" class="card-img-top" alt="Most Followed Person">
-            <div class="card-body">
-                <h5 class="card-title">Most Followed Person</h5>
-                <p class="card-text">Bio or description of the most followed person.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Followers: 1M</small>
-            </div>
-        </div>
-    </div>
-
-    
-
-    <!-- Future Options Section -->
-    <h4 class="section-title">Future Options</h4>
-    <div class="card-deck">
-        <!-- Add cards or other elements for future options -->
-    </div>
-</div>
-
-<!-- Bootstrap JS and Popper.js -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-</body>
-</html>
--height: 200px;
-            object-fit: cover;
-        }
-
-        .section-title {
-            margin-top: 20px;
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h2 class="mt-4 mb-4">Explore Page</h2>
-
-    <!-- Most Liked Section -->
-    <h4 class="section-title">Most Liked</h4>
-    <div class="card-deck">
-        <!-- Replace with college-themed images -->
-        <div class="card">
-            <img src="college-image1.jpg" class="card-img-top" alt="College Image 1">
-            <div class="card-body">
-                <h5 class="card-title">Username</h5>
-                <p class="card-text">Caption for the image. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Likes: 1000 | Followers: 500K | Comments: 50</small>
-            </div>
-        </div>
-        <!-- Repeat for other most liked college-themed images -->
-    </div>
-
-    <!-- Most Followed Person Section -->
-    <h4 class="section-title">Most Followed Person</h4>
-    <div class="card-deck">
-        <!-- Replace with college-themed image -->
-        <div class="card">
-            <img src="college-image2.jpg" class="card-img-top" alt="Most Followed Person">
-            <div class="card-body">
-                <h5 class="card-title">Most Followed Person</h5>
-                <p class="card-text">Bio or description of the most followed person.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Followers: 1M</small>
-            </div>
-        </div>
-    </div>
-
-    <!-- Top 10 Images by Comment Section -->
-    <h4 class="section-title">Top 10 Images by Comments</h4>
-    <div class="card-deck">
-        <!-- Replace with college-themed images -->
-        <div class="card">
-            <img src="college-image3.jpg" class="card-img-top" alt="College Image 3">
-            <div class="card-body">
-                <h5 class="card-title">Username</h5>
-                <p class="card-text">Caption for the image. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Comments: 30</small>
-            </div>
-        </div>
-        <!-- Repeat for other top college-themed images by comments -->
-    </div>
-
-    <!-- Future Options Section -->
-    <h4 class="section-title">Future Options</h4>
-    <div class="card-deck">
-        <!-- Add cards or other elements for future options -->
-    </div>
+<!-- Card for submitting a verification request -->
+<div class="card">
+    <h2>Apply for Flink Verification</h2>
+    <p>A verified badge is a check that appears next to an Flink account's name to indicate that the account is the authentic presence of a notable public figure, celebrity, global brand, or entity it represents.</p>
+    <p>Submitting a request for verification does not guarantee that your account will be verified.</p>
 </div>
 
-<!-- Bootstrap JS and Popper.js -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- Card for entering username and message -->
+<div class="card">
+    <form method="post" action="verification_submission.php">
+        <div class="mb-3">
+            <label for="username" class="form-label">Username:</label>
+            <input type="text" id="username" name="username" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Message (Why do you need verification?):</label>
+            <textarea id="message" name="message" rows="4" class="form-control" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success">Send</button>
+    </form>
+</div>
+
+<!-- Include Bootstrap JS (Add the correct path to your Bootstrap JS file) -->
+<script src="path/to/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
